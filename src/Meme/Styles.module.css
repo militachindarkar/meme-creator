@@ -1,0 +1,44 @@
+.container {
+  margin: 50px;
+}
+.container_2 {
+  margin: auto 10px;
+}
+.container_3 {
+  margin: auto 10px;
+}
+.skip {
+  background-color: #f0ad4e;
+}
+.generate {
+  background-color: #0275d8;
+}
+.imgFormContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 400px;
+}
+.listContainer {
+  background-color: cornsilk;
+  margin-top: 50px;
+  overflow-y: auto;
+  height: 500px;
+  border: 1px solid #000;
+  text-align: center;
+  box-shadow: 0px 0px 5px black;
+}
+
+.memelistContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.memeItem {
+  margin: 10px;
+  max-width: 200px;
+  max-height: 200px;
+}
